@@ -1,2 +1,8 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /up
+Disallow: /_debugbar/
+
+Sitemap: /sitemap.xml
