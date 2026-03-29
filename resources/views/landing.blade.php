@@ -556,7 +556,7 @@
                             Notion Providers designs and maintains operational workspaces across industries — from startups to established teams. We don't just know Notion; we live in it, building systems for project management, knowledge bases, finance tracking, and everything in between.
                         </p>
 
-                        <div class="space-y-5">
+                        <div class="space-y-8">
                             <a href="https://www.notionproviders.com/services/" target="_blank" rel="noopener" class="inline-block text-sm text-primary-400 hover:text-primary-300 transition-colors underline underline-offset-4">
                                 Learn more about our services &rarr;
                             </a>
