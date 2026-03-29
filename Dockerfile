@@ -32,9 +32,9 @@ RUN mkdir -p storage/framework/{cache,sessions,views} \
     && chown -R www-data:www-data storage bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache
 
-EXPOSE 80
+EXPOSE 3000
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 \
-    CMD curl -f http://localhost/up || exit 1
+    CMD curl -f http://localhost:3000/up || exit 1
 
 ENTRYPOINT ["/entrypoint.sh"]
