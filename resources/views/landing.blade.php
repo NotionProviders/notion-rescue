@@ -503,47 +503,67 @@
     </div>
 
     <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <div class="text-center mb-16">
+            <span class="inline-block px-4 py-1.5 rounded-full bg-primary-500/15 text-primary-400 text-xs font-semibold mb-6 border border-primary-500/25">
+                Why Notion Providers
+            </span>
+            <h2 class="text-3xl md:text-5xl font-extrabold tracking-normal !leading-[1.25] mb-6">
+                <span class="text-primary-500">Certified Experts.</span><br>
+                <span class="text-white">Official Notion Partners.</span>
+            </h2>
+            <p class="text-white/60 text-lg max-w-2xl mx-auto leading-relaxed">
+                Notion Rescue is led by certified Notion consultants who build and maintain operational workspaces every day — not generalists who picked up Notion last month.
+            </p>
+        </div>
+
         <div class="relative rounded-sm overflow-hidden">
-            <div class="relative px-8 py-16 md:px-16 md:py-20 bg-surface-800 border border-surface-700 rounded-sm">
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <span class="inline-block px-4 py-1.5 rounded-full bg-primary-500/15 text-primary-400 text-xs font-semibold mb-6 border border-primary-500/25">
-                            Why Notion Providers
-                        </span>
-                        <h2 class="text-3xl md:text-4xl font-extrabold tracking-normal !leading-[1.25] mb-6">
-                            <span class="text-primary-500">Built by Experts</span><br>
-                            <span class="text-white">Who Live Inside Notion</span>
-                        </h2>
-                        <p class="text-white/70 text-lg leading-relaxed">
-                            Notion Providers designs and maintains operational workspaces across industries. We work inside Notion every day building systems for CRM, project management, finance, team collaboration, and knowledge management.
-                        </p>
+            <div class="relative bg-surface-800 border border-surface-700 rounded-sm">
+                <div class="grid lg:grid-cols-5 gap-0">
+
+                    {{-- Left: Professional Photo --}}
+                    <div class="lg:col-span-2 relative">
+                        <img src="{{ asset('images/Brad Grey Hoodie Crossed Arms Big Smile Close.jpg') }}" alt="Bradley Hubbard — Notion Certified Consultant and founder of Notion Providers" class="w-full h-full object-cover object-center min-h-[320px] lg:min-h-full" loading="lazy">
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-surface-900/90 to-transparent p-6 lg:p-8">
+                            <p class="text-white font-bold text-lg">Bradley Hubbard</p>
+                            <p class="text-white/60 text-sm">Founder, Notion Providers</p>
+                        </div>
                     </div>
 
-                    <div class="space-y-4">
-                        @php
-                            $credentials = [
-                                'Notion consulting certifications held',
-                                'Hundreds of workspace builds and rescues completed',
-                                'Systems built for CRM, PM, finance, and collaboration',
-                                'Dedicated team working inside Notion daily',
-                            ];
-                        @endphp
+                    {{-- Right: Credentials + Badge --}}
+                    <div class="lg:col-span-3 p-8 md:p-12 lg:p-16 flex flex-col justify-center">
+                        <div class="space-y-4 mb-8">
+                            @php
+                                $credentials = [
+                                    'Notion Certified Consulting Partner',
+                                    'Official Notion Partner — verified by Notion',
+                                    'Hundreds of workspace builds and rescues completed',
+                                    'Systems built for CRM, PM, finance, and team collaboration',
+                                    'Dedicated team working inside Notion daily',
+                                ];
+                            @endphp
 
-                        @foreach($credentials as $cred)
-                            <div class="flex items-center gap-3 text-sm text-white/90">
-                                <div class="w-5 h-5 rounded-full bg-primary-500/15 flex items-center justify-center flex-shrink-0">
-                                    <svg class="w-3 h-3 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                            @foreach($credentials as $cred)
+                                <div class="flex items-center gap-3 text-sm text-white/90">
+                                    <div class="w-5 h-5 rounded-full bg-primary-500/15 flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-3 h-3 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+                                    </div>
+                                    {{ $cred }}
                                 </div>
-                                {{ $cred }}
-                            </div>
-                        @endforeach
+                            @endforeach
+                        </div>
 
-                        <div class="pt-4">
+                        <p class="text-white/60 text-sm leading-relaxed mb-8">
+                            Notion Providers designs and maintains operational workspaces across industries — from startups to established teams. We don't just know Notion; we live in it, building systems for project management, knowledge bases, finance tracking, and everything in between.
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+                            <img src="{{ asset('images/Consulting Partner Badge.png') }}" alt="Notion Certified Consulting Partner badge" class="h-16 w-auto" loading="lazy">
                             <a href="https://www.notionproviders.com/services/" target="_blank" rel="noopener" class="text-sm text-primary-400 hover:text-primary-300 transition-colors underline underline-offset-4">
                                 Learn more about our services &rarr;
                             </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
