@@ -88,6 +88,7 @@
             <a href="#problem" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors">The Reason</a>
             <a href="#how-it-works" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors">How It Works</a>
             <a href="#whats-included" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors">What's Included</a>
+            <a href="#why-notion-providers" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors">Why Notion Providers</a>
             <a href="#guarantee" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors">Guarantee</a>
             <a href="https://calendly.com/d/cvt9-wh4-73p/notion-rescue-discovery" target="_blank" rel="noopener" class="px-5 py-2.5 bg-primary-500 text-white text-sm font-semibold rounded-sm hover:bg-primary-400 transition-all hover:shadow-lg hover:shadow-primary-500/20 active:scale-95">
                 Book a Call
@@ -102,6 +103,7 @@
             <a href="#problem" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors py-2">The Reason</a>
             <a href="#how-it-works" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors py-2">How It Works</a>
             <a href="#whats-included" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors py-2">What's Included</a>
+            <a href="#why-notion-providers" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors py-2">Why Notion Providers</a>
             <a href="#guarantee" class="text-sm font-medium text-white/70 hover:text-primary-400 transition-colors py-2">Guarantee</a>
             <a href="https://calendly.com/d/cvt9-wh4-73p/notion-rescue-discovery" target="_blank" rel="noopener" class="mt-2 px-5 py-2.5 bg-primary-500 text-white text-sm font-semibold rounded-sm text-center hover:bg-primary-400 transition-all">
                 Book a Call
@@ -497,7 +499,7 @@
 </div>
 
 {{-- ========== AUTHORITY / SOCIAL PROOF ========== --}}
-<section class="py-24 md:py-32 bg-surface-950 relative overflow-hidden">
+<section id="why-notion-providers" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden">
     <div class="absolute inset-0 -z-0">
         <div class="absolute top-0 right-1/3 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl"></div>
     </div>
@@ -743,6 +745,7 @@
                     <li><a href="#problem" class="text-sm text-white/50 hover:text-primary-400 transition-colors">The Reason</a></li>
                     <li><a href="#how-it-works" class="text-sm text-white/50 hover:text-primary-400 transition-colors">How It Works</a></li>
                     <li><a href="#whats-included" class="text-sm text-white/50 hover:text-primary-400 transition-colors">What's Included</a></li>
+                    <li><a href="#why-notion-providers" class="text-sm text-white/50 hover:text-primary-400 transition-colors">Why Notion Providers</a></li>
                     <li><a href="#guarantee" class="text-sm text-white/50 hover:text-primary-400 transition-colors">Guarantee</a></li>
                     <li><a href="#book" class="text-sm text-white/50 hover:text-primary-400 transition-colors">Book a Call</a></li>
                 </ul>
