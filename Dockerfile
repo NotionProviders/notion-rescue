@@ -1,9 +1,8 @@
-FROM composer:2 AS vendor
+FROM composer:2 AS deps
 
 WORKDIR /app
 COPY composer.json composer.lock ./
 RUN composer install --no-dev --no-scripts --no-autoloader --prefer-dist
-
 COPY . .
 RUN composer dump-autoload --optimize --no-dev
 
@@ -24,13 +23,20 @@ RUN chmod +x /entrypoint.sh
 
 WORKDIR /var/www/html
 
-COPY --from=vendor /app .
+# Copy application source directly from build context
+COPY . .
+
+# Overlay vendor from composer stage
+COPY --from=deps /app/vendor ./vendor
 
 RUN mkdir -p storage/framework/{cache,sessions,views} \
     storage/logs \
     bootstrap/cache \
     && chown -R www-data:www-data storage bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache
+
+# Verify public images exist at build time
+RUN ls -la public/images/ && echo "--- Images verified ---"
 
 EXPOSE 3000
 
