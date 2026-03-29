@@ -556,9 +556,9 @@
                             Notion Providers designs and maintains operational workspaces across industries — from startups to established teams. We don't just know Notion; we live in it, building systems for project management, knowledge bases, finance tracking, and everything in between.
                         </p>
 
-                        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-                            <img src="{{ asset('images/consulting-partner-badge.png') }}" alt="Notion Certified Consulting Partner badge" class="h-24 w-auto" loading="lazy">
-                            <a href="https://www.notionproviders.com/services/" target="_blank" rel="noopener" class="text-sm text-primary-400 hover:text-primary-300 transition-colors underline underline-offset-4">
+                        <div class="space-y-5">
+                            <img src="{{ asset('images/brads-credentials-banner-left-to-right.png') }}" alt="Bradley Hubbard credentials: Notion Consulting Partner, Notion Certified Admin, Make Advanced and multiple certifications" class="w-full max-w-sm h-auto" loading="lazy">
+                            <a href="https://www.notionproviders.com/services/" target="_blank" rel="noopener" class="inline-block text-sm text-primary-400 hover:text-primary-300 transition-colors underline underline-offset-4">
                                 Learn more about our services &rarr;
                             </a>
                         </div>
