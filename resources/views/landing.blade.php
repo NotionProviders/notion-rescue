@@ -522,7 +522,7 @@
 
                     {{-- Left: Professional Photo --}}
                     <div class="lg:col-span-2 relative">
-                        <img src="{{ asset('images/Brad Grey Hoodie Crossed Arms Big Smile Close.jpg') }}" alt="Bradley Hubbard — Notion Certified Consultant and founder of Notion Providers" class="w-full h-full object-cover object-center min-h-[320px] lg:min-h-full" loading="lazy">
+                        <img src="{{ asset('images/brad-hubbard.jpg') }}" alt="Bradley Hubbard — Notion Certified Consultant and founder of Notion Providers" class="w-full h-full object-cover object-center min-h-[320px] lg:min-h-full" loading="lazy">
                         <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-surface-900/90 to-transparent p-6 lg:p-8">
                             <p class="text-white font-bold text-lg">Bradley Hubbard</p>
                             <p class="text-white/60 text-sm">Founder, Notion Providers</p>
@@ -557,7 +557,7 @@
                         </p>
 
                         <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-                            <img src="{{ asset('images/Consulting Partner Badge.png') }}" alt="Notion Certified Consulting Partner badge" class="h-16 w-auto" loading="lazy">
+                            <img src="{{ asset('images/consulting-partner-badge.png') }}" alt="Notion Certified Consulting Partner badge" class="h-24 w-auto" loading="lazy">
                             <a href="https://www.notionproviders.com/services/" target="_blank" rel="noopener" class="text-sm text-primary-400 hover:text-primary-300 transition-colors underline underline-offset-4">
                                 Learn more about our services &rarr;
                             </a>
