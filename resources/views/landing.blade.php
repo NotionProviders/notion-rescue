@@ -557,10 +557,10 @@
                         </p>
 
                         <div class="space-y-5">
-                            <img src="{{ asset('images/brads-credentials-banner-left-to-right.png') }}" alt="Bradley Hubbard credentials: Notion Consulting Partner, Notion Certified Admin, Make Advanced and multiple certifications" class="w-full max-w-sm h-auto" loading="lazy">
                             <a href="https://www.notionproviders.com/services/" target="_blank" rel="noopener" class="inline-block text-sm text-primary-400 hover:text-primary-300 transition-colors underline underline-offset-4">
                                 Learn more about our services &rarr;
                             </a>
+                            <img src="{{ asset('images/brads-credentials-banner-left-to-right.png') }}" alt="Bradley Hubbard credentials: Notion Consulting Partner, Notion Certified Admin, Make Advanced and multiple certifications" class="w-full max-w-sm h-auto" loading="lazy">
                         </div>
                     </div>
 
