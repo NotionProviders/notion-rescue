@@ -91,7 +91,7 @@
     <style>
         html { scroll-behavior: smooth; }
         ::selection { background-color: #e29700; color: #fff; }
-        body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
 
         @keyframes fade-in-up {
             from { opacity: 0; transform: translateY(24px); }
@@ -119,7 +119,7 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
-            height: 10rem;
+            height: 0rem;
             background: linear-gradient(to bottom, #252525, transparent);
             pointer-events: none;
             z-index: 2;
@@ -128,8 +128,17 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0;
-            height: 10rem;
+            height: 0rem;
             background: linear-gradient(to bottom, #1e1e1e, transparent);
+            pointer-events: none;
+            z-index: 2;
+        }
+        .section-blend-to-900::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 4rem;
+            background: linear-gradient(to top, #252525, transparent);
             pointer-events: none;
             z-index: 2;
         }

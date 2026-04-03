@@ -115,13 +115,13 @@
 <main id="main-content">
 
 {{-- ========== HERO ========== --}}
-<section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-18">
+<section class="relative min-h-screen flex items-center justify-center pt-18 section-blend-to-900">
     <div class="absolute inset-0 -z-10">
         <div class="absolute inset-0 bg-gradient-to-b from-surface-950 to-surface-900"></div>
-        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary-500/[0.06] rounded-full blur-3xl"></div>
-        <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary-600/[0.04] rounded-full blur-3xl"></div>
         <div class="absolute inset-0 opacity-[0.03] dot-grid"></div>
     </div>
+    <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary-500/[0.06] rounded-full blur-3xl z-[5] pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary-600/[0.04] rounded-full blur-3xl z-[5] pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-6 py-20 md:py-32">
         <div class="max-w-4xl mx-auto text-center">
@@ -177,10 +177,8 @@
 </section>
 
 {{-- ========== PAIN POINTS ========== --}}
-<section id="problem" class="py-24 md:py-32 bg-surface-900 relative overflow-hidden">
-    <div class="absolute inset-0 -z-0">
-        <div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl"></div>
-    </div>
+<section id="problem" class="py-24 md:py-32 bg-surface-900 relative">
+    <div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl z-[5] pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-6 relative z-10">
         <div class="text-center mb-20">
@@ -222,10 +220,8 @@
 </section>
 
 {{-- ========== SOLUTION INTRO ========== --}}
-<section class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
-    <div class="absolute inset-0 -z-0">
-        <div class="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-primary-600/[0.04] rounded-full blur-3xl"></div>
-    </div>
+<section class="py-24 md:py-32 bg-surface-950 relative section-blend-from-900">
+    <div class="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-primary-600/[0.04] rounded-full blur-3xl z-[5] pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-6 relative z-10">
         <span class="inline-block px-4 py-1.5 rounded-full bg-primary-500/15 text-primary-400 text-xs font-semibold mb-8 border border-primary-500/25">
@@ -349,11 +345,9 @@
 </section>
 
 {{-- ========== WHAT'S INCLUDED (Detailed) ========== --}}
-<section id="whats-included" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
-    <div class="absolute inset-0 -z-0">
-        <div class="absolute top-1/4 right-0 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl"></div>
-        <div class="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-primary-600/[0.03] rounded-full blur-3xl"></div>
-    </div>
+<section id="whats-included" class="py-24 md:py-32 bg-surface-950 relative section-blend-from-900">
+    <div class="absolute top-1/4 right-0 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl z-[5] pointer-events-none"></div>
+    <div class="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-primary-600/[0.03] rounded-full blur-3xl z-[5] pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-6 relative z-10">
         <div class="text-center mb-20">
@@ -499,10 +493,8 @@
 </div>
 
 {{-- ========== AUTHORITY / SOCIAL PROOF ========== --}}
-<section id="why-notion-providers" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
-    <div class="absolute inset-0 -z-0">
-        <div class="absolute top-0 right-1/3 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl"></div>
-    </div>
+<section id="why-notion-providers" class="py-24 md:py-32 bg-surface-950 relative section-blend-from-900">
+    <div class="absolute top-0 right-1/3 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl z-[5] pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-6 relative z-10">
         <div class="text-center mb-16">
@@ -643,10 +635,8 @@
 </section>
 
 {{-- ========== GUARANTEE ========== --}}
-<section id="guarantee" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
-    <div class="absolute inset-0 -z-0">
-        <div class="absolute bottom-0 left-1/3 w-[400px] h-[400px] bg-primary-600/[0.03] rounded-full blur-3xl"></div>
-    </div>
+<section id="guarantee" class="py-24 md:py-32 bg-surface-950 relative section-blend-from-900">
+    <div class="absolute bottom-0 left-1/3 w-[400px] h-[400px] bg-primary-600/[0.03] rounded-full blur-3xl z-[5] pointer-events-none"></div>
 
     <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
         <div class="p-10 md:p-16 rounded-sm bg-surface-800 border border-primary-500/25">
@@ -724,7 +714,7 @@
 </main>
 
 {{-- ========== FOOTER ========== --}}
-<footer role="contentinfo" class="bg-surface-950 text-white relative section-blend-from-900">
+<footer role="contentinfo" class="bg-surface-950 text-white">
     <div class="max-w-7xl mx-auto px-6 py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div class="lg:col-span-2">
