@@ -222,7 +222,7 @@
 </section>
 
 {{-- ========== SOLUTION INTRO ========== --}}
-<section class="py-24 md:py-32 bg-surface-950 relative overflow-hidden">
+<section class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
     <div class="absolute inset-0 -z-0">
         <div class="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-primary-600/[0.04] rounded-full blur-3xl"></div>
     </div>
@@ -284,7 +284,7 @@
 </div>
 
 {{-- ========== HOW IT WORKS (Timeline) ========== --}}
-<section id="how-it-works" class="py-24 md:py-32 bg-surface-900">
+<section id="how-it-works" class="py-24 md:py-32 bg-surface-900 relative overflow-hidden section-blend-from-950">
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-20">
             <span class="inline-block px-4 py-1.5 rounded-full bg-primary-500/15 text-primary-400 text-xs font-semibold mb-5 border border-primary-500/25">
@@ -349,7 +349,7 @@
 </section>
 
 {{-- ========== WHAT'S INCLUDED (Detailed) ========== --}}
-<section id="whats-included" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden">
+<section id="whats-included" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
     <div class="absolute inset-0 -z-0">
         <div class="absolute top-1/4 right-0 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl"></div>
         <div class="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-primary-600/[0.03] rounded-full blur-3xl"></div>
@@ -452,7 +452,7 @@
 </div>
 
 {{-- ========== BONUSES ========== --}}
-<section class="py-24 md:py-32 bg-surface-900">
+<section class="py-24 md:py-32 bg-surface-900 relative overflow-hidden section-blend-from-950">
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-20">
             <span class="inline-block px-4 py-1.5 rounded-full bg-primary-500/15 text-primary-400 text-xs font-semibold mb-5 border border-primary-500/25">
@@ -499,7 +499,7 @@
 </div>
 
 {{-- ========== AUTHORITY / SOCIAL PROOF ========== --}}
-<section id="why-notion-providers" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden">
+<section id="why-notion-providers" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
     <div class="absolute inset-0 -z-0">
         <div class="absolute top-0 right-1/3 w-[500px] h-[500px] bg-primary-500/[0.04] rounded-full blur-3xl"></div>
     </div>
@@ -573,7 +573,7 @@
 </section>
 
 {{-- ========== WHO THIS IS FOR ========== --}}
-<section class="py-24 md:py-32 bg-surface-900">
+<section class="py-24 md:py-32 bg-surface-900 relative overflow-hidden section-blend-from-950">
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-20">
             <span class="inline-block px-4 py-1.5 rounded-full bg-primary-500/15 text-primary-400 text-xs font-semibold mb-5 border border-primary-500/25">
@@ -643,7 +643,7 @@
 </section>
 
 {{-- ========== GUARANTEE ========== --}}
-<section id="guarantee" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden">
+<section id="guarantee" class="py-24 md:py-32 bg-surface-950 relative overflow-hidden section-blend-from-900">
     <div class="absolute inset-0 -z-0">
         <div class="absolute bottom-0 left-1/3 w-[400px] h-[400px] bg-primary-600/[0.03] rounded-full blur-3xl"></div>
     </div>
@@ -667,7 +667,7 @@
 </section>
 
 {{-- ========== FINAL CTA ========== --}}
-<section id="book" class="py-24 md:py-32 bg-surface-900">
+<section id="book" class="py-24 md:py-32 bg-surface-900 relative overflow-hidden section-blend-from-950">
     <div class="max-w-7xl mx-auto px-6">
         <div class="relative rounded-sm overflow-hidden">
             <div class="relative px-8 py-16 md:px-16 md:py-24 bg-surface-800 border border-surface-700 rounded-sm text-center">
@@ -724,7 +724,7 @@
 </main>
 
 {{-- ========== FOOTER ========== --}}
-<footer role="contentinfo" class="bg-surface-950 text-white border-t border-surface-700">
+<footer role="contentinfo" class="bg-surface-950 text-white relative section-blend-from-900">
     <div class="max-w-7xl mx-auto px-6 py-16">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div class="lg:col-span-2">

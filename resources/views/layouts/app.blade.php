@@ -113,6 +113,26 @@
         }
 
         .sr-only { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0; }
+
+        /* Smooth section background transitions */
+        .section-blend-from-900::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 10rem;
+            background: linear-gradient(to bottom, #252525, transparent);
+            pointer-events: none;
+            z-index: 2;
+        }
+        .section-blend-from-950::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 10rem;
+            background: linear-gradient(to bottom, #1e1e1e, transparent);
+            pointer-events: none;
+            z-index: 2;
+        }
     </style>
 
     {{-- SEO: JSON-LD Structured Data --}}
